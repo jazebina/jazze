@@ -829,7 +829,7 @@
 
             statusMessage.style.color = 'var(--text-light)';
             statusMessage.textContent = 'Ładowanie zdjęcia na Cloudinary... ⏳';
-            generateButton.disabled = true;
+            generateButton.disabled = false;
 
             const formData = new FormData();
             formData.append('file', file);
